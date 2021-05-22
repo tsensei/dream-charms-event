@@ -60,6 +60,7 @@ a {
 
 .map-container {
   padding: 1rem;
+  padding-bottom: 0;
 }
 
 .social-box {
@@ -114,6 +115,10 @@ a {
 
 footer {
   padding-bottom: 1rem;
+}
+
+footer div {
+  padding: 0.2rem 0;
 }
 
 @media only screen and (min-width: 900px) {
