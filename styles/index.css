@@ -26,7 +26,7 @@ a {
 
 .motto-container div {
   display: block;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: 0.67em 0 0.67em 0;
   font-weight: 800;
   font-family: "Cookie", cursive !important;
@@ -61,6 +61,10 @@ a {
 .map-container {
   padding: 1rem;
   padding-bottom: 0;
+}
+
+.map-container h3 {
+  padding-bottom: 1rem;
 }
 
 .social-box {
