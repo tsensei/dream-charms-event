@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script defer src="./js/index.js"></script>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Dream Charms Events</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.png" alt="" width="48" height="48" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text"
+            ><img src="./assets/email.png" height="24" width="24" /><a
+              href="mailto@dreamcharms@gmail.com"
+              >dreamcharms@gmail.com</a
+            ></span
+          >
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- Carousel Starts -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <picture>
+              <source
+                class="d-block w-100"
+                media="(min-width: 600px)"
+                srcset="./assets/carousel/carousel-1-max.jpg"
+              />
+              <img
+                src="./assets/carousel/carousel-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </picture>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dummy Text</h5>
+              <p>Some representative placeholder content for the slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source
+                class="d-block w-100"
+                media="(min-width: 600px)"
+                srcset="./assets/carousel/carousel-2-max.jpg"
+              />
+              <img
+                src="./assets/carousel/carousel-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </picture>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dummy Text</h5>
+              <p>Some representative placeholder content for the slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source
+                class="d-block w-100"
+                media="(min-width: 600px)"
+                srcset="./assets/carousel/carousel-3-max.jpg"
+              />
+              <img
+                src="./assets/carousel/carousel-3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </picture>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dummy Text</h5>
+              <p>Some representative placeholder content for the slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source
+                class="d-block w-100"
+                media="(min-width: 600px)"
+                srcset="./assets/carousel/carousel-4-max.jpg"
+              />
+              <img
+                src="./assets/carousel/carousel-4.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </picture>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dummy Text</h5>
+              <p>Some representative placeholder content for the slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source
+                class="d-block w-100"
+                media="(min-width: 600px)"
+                srcset="./assets/carousel/carousel-5-max.jpg"
+              />
+              <img
+                src="./assets/carousel/carousel-5.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </picture>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dummy Text</h5>
+              <p>Some representative placeholder content for the slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source
+                class="d-block w-100"
+                media="(min-width: 600px)"
+                srcset="./assets/carousel/carousel-6-max.jpg"
+              />
+              <img
+                src="./assets/carousel/carousel-6.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </picture>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dummy Text</h5>
+              <p>Some representative placeholder content for the slide.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel Ends -->
+
+      <!-- Corporate Motto Section Starts -->
+
+      <div class="container-fluid motto-container bg-dark text-light">
+        <div>
+          “We take care of all the heavy lifting so that you can focus on
+          creating memories with your loved ones.”
+        </div>
+      </div>
+
+      <!-- Corporate Motto Section Ends -->
+      <!-- Cards Section Starts -->
+      <div class="container-fluid cards-container text-center">
+        <h3>Services we offer</h3>
+        <div class="row cards-container-inner">
+          <div class="col-lg-4 col-sm-12">
+            <div class="cards mx-auto">
+              <img
+                class="services-img"
+                src="./assets/services-img/service-1.jpg"
+              />
+              <h3>Weddings</h3>
+              <p>
+                Promising to make it the most beautiful & memorable day for you
+                & your guests.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="cards mx-auto">
+              <img
+                class="services-img"
+                src="./assets/services-img/service-2.jpg"
+              />
+              <h3>Birthday</h3>
+              <p>
+                Our comprehensive solutions create impact that lasts far beyond
+                any single event.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="cards mx-auto">
+              <img
+                class="services-img"
+                src="./assets/services-img/service-3.jpg"
+              />
+              <h3>Corporate Events</h3>
+              <p>
+                Our comprehensive solutions create impact that lasts far beyond
+                any single event.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row cards-container-inner">
+          <div class="col-lg-4 col-sm-12">
+            <div class="cards mx-auto">
+              <img
+                class="services-img"
+                src="./assets/services-img/service-4.jpg"
+              />
+              <h3>Seminars</h3>
+              <p>
+                Promising to make it the most beautiful & memorable day for you
+                & your guests.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="cards mx-auto">
+              <img
+                class="services-img"
+                src="./assets/services-img/service-5.jpg"
+              />
+              <h3>Festivals</h3>
+              <p>
+                Our comprehensive solutions create impact that lasts far beyond
+                any single event.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="cards mx-auto">
+              <img
+                class="services-img"
+                src="./assets/services-img/service-6.jpg"
+              />
+              <h3>Award Events</h3>
+              <p>Tailor-made solutions to whatever the occassion might be</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cards Section Ends -->
+      <!-- Map and Socials Section Starts -->
+      <div class="container-fluid text-center map-container bg-dark text-light">
+        <h3>About Us</h3>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 map-responsive">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14610.315937676029!2d90.5163323!3d23.7267243!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c6422bc83d21%3A0x3a1bc96ce9f8ad8b!2sKhilkhet%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1621608487877!5m2!1sen!2sbd"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <h4>We Provide</h4>
+            <ul class="provide-list">
+              <li>Decoration</li>
+              <li>Venue</li>
+              <li>Catering</li>
+              <li>Lights</li>
+              <li>Sounds</li>
+              <li>Photography</li>
+              <li>Videography</li>
+              <li>DJ</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <h4>Contact</h4>
+            <div class="social-buttons">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/Dream-Charms-Events-100795518874455"
+                ><img
+                  src="./assets/social-icons/facebook.svg"
+                />/dreamcharmsevents</a
+              >
+              <a
+                target="_blank"
+                href="https://www.instagram.com/dreamcharmsevents/"
+                ><img
+                  src="./assets/social-icons/instagram.svg"
+                />/dreamcharmsevents</a
+              >
+              <a href="mailto:dreamcharms@gmail.com"
+                ><img
+                  src="./assets/social-icons/gmail.svg"
+                />dreamcharms@gmail.com</a
+              >
+              <a href="#"
+                ><img src="./assets/social-icons/telephone.svg" />01958496325,
+                01957088145</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Map and Socials Section  -->
+    </main>
+    <footer class="bg-dark text-light text-center">
+      Copyright © <span id="currentYear">2021</span
+      ><a href="https://www.instagram.com/_tsensei_/">tsensei</a>All Rights
+      Reserved
+    </footer>
+
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>

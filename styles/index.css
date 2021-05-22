@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.services-img {
+  width: 50%;
+}
+
+.motto-container {
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.motto-container div {
+  display: block;
+  font-size: 1.1rem;
+  margin: 0.67em 0 0.67em 0;
+  font-weight: 800;
+  font-family: "Cookie", cursive !important;
+}
+
+.cards-container {
+  padding: 2rem 2rem;
+}
+
+.cards-container-inner {
+  padding: 0.5rem;
+}
+
+.cards {
+  width: 90%;
+  margin-top: 1rem;
+}
+
+.cards h3 {
+  padding: 0.8rem;
+  margin-bottom: 0;
+}
+
+.cards p {
+  line-height: 1.5;
+}
+
+.services-img {
+  width: 100%;
+}
+
+.map-container {
+  padding: 1rem;
+}
+
+.social-box {
+  padding: 1rem;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  border-radius: 20px;
+  padding: 1rem;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.map-container .row > div {
+  margin-bottom: 1rem;
+}
+
+.map-container .row > div:nth-child(2) h4 {
+  margin-bottom: 0.5rem;
+}
+
+.map-container .row > div:nth-child(3) h4 {
+  margin-bottom: 0.5rem;
+}
+.provide-list {
+  padding: 1rem;
+  padding-left: 0;
+  list-style: none;
+  line-height: 2.5;
+}
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.social-buttons a img {
+  height: 2rem;
+  width: 2rem;
+  margin: 0.5rem;
+}
+
+footer {
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 900px) {
+  .carousel-inner {
+    max-height: calc(90vh - 74px);
+  }
+  .carousel-inner img {
+    max-height: calc(90vh - 74px);
+  }
+
+  .motto-container div {
+    font-size: 2em;
+  }
+
+  .cards-container {
+    padding: 5rem 10rem;
+  }
+
+  .cards-container-inner {
+    padding: 2rem;
+  }
+
+  .cards {
+    width: 70%;
+  }
+
+  .cards h3 {
+    padding: 1rem;
+  }
+
+  .cards p {
+    line-height: 2;
+  }
+
+  .map-responsive {
+    padding-bottom: 20%;
+  }
+
+  .map-container .row div:not(:first-child) {
+    padding: 1rem;
+  }
+
+  .social-buttons a img {
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem;
+  }
+
+  .map-container .row > div {
+    margin-bottom: 0;
+  }
+}
