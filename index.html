@@ -18,6 +18,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <script defer src="./js/index.js"></script>
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Dream Charms Events</title>
@@ -48,7 +51,7 @@
               <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="./gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
@@ -258,8 +261,8 @@
       <div class="container-fluid cards-container text-center">
         <h3>Services we offer</h3>
         <div class="row cards-container-inner">
-          <div class="col-lg-4 col-sm-12">
-            <div class="cards mx-auto">
+          <div class="col-lg-4 col-sm-12" >
+            <div class="cards mx-auto" data-aos="fade-in">
               <img
                 class="services-img"
                 src="./assets/services-img/service-1.jpg"
@@ -271,7 +274,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12" data-aos="fade-in">
             <div class="cards mx-auto">
               <img
                 class="services-img"
@@ -284,7 +287,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12" data-aos="fade-in">
             <div class="cards mx-auto">
               <img
                 class="services-img"
@@ -299,7 +302,7 @@
           </div>
         </div>
         <div class="row cards-container-inner">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12" data-aos="fade-in">
             <div class="cards mx-auto">
               <img
                 class="services-img"
@@ -313,7 +316,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-12">
-            <div class="cards mx-auto">
+            <div class="cards mx-auto" data-aos="fade-in">
               <img
                 class="services-img"
                 src="./assets/services-img/service-5.jpg"
@@ -326,7 +329,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-12">
-            <div class="cards mx-auto">
+            <div class="cards mx-auto" data-aos="fade-in">
               <img
                 class="services-img"
                 src="./assets/services-img/service-6.jpg"
@@ -404,9 +407,15 @@
       <div>Made with ❤️️ by<a href="https://instagram.com/_tsensei_">tsensei</a></div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+
     <script>
       document.getElementById("currentYear").textContent =
         new Date().getFullYear();
+      AOS.init();
     </script>
+
+
   </body>
 </html>

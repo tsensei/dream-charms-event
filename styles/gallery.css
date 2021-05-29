@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+*,
+*::after,
+*::before {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+main {
+  padding: 0.5rem 3rem;
+
+  background: black;
+  color: white;
+}
+
+.gallery-header {
+  text-align: center;
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+
+.gallery-header span {
+  position: relative;
+}
+
+.gallery-header span::before {
+  content: "";
+  background: #7cbd1e;
+  width: 130px;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+}
+
+.sidenav {
+  background-color: #7cbd1e;
+
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav-link {
+  margin: 0 1rem;
+}
+
+.sidenav-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.img {
+  margin-bottom: 2rem;
+}
+
+.img img {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  padding: 0.5rem 0;
+}
+
+footer div {
+  padding: 0.2rem 0;
+}
+
+@media only screen and (min-width: 900px) {
+  main {
+    padding-bottom: 3rem;
+  }
+  .sidenav {
+    background-color: #7cbd1e;
+    height: 75px;
+  }
+
+  .sidenav-link {
+    margin: 2.5rem;
+  }
+  .img-grid-container {
+    width: 85%;
+    margin: 0 auto;
+    min-height: calc(100vh - 74px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .img {
+    margin-bottom: 0;
+  }
+
+  .img img {
+    height: 100%;
+    width: 100%;
+
+    transition: transform 400ms ease-in-out;
+  }
+
+  .img img:hover {
+    transform: scale(1.05);
+  }
+
+  footer div:nth-child(1),
+  footer div:nth-child(2) {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img-grid-container {
+    width: 75%;
+  }
+}
