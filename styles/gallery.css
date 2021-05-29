@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 *,
 *::after,
@@ -23,20 +23,12 @@ main {
 .gallery-header {
   text-align: center;
   font-size: 3rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .gallery-header span {
+  font-family: "Great Vibes", cursive !important;
   position: relative;
-}
-
-.gallery-header span::before {
-  content: "";
-  background: #7cbd1e;
-  width: 130px;
-  height: 2px;
-  position: absolute;
-  bottom: 0;
 }
 
 .sidenav {
@@ -85,6 +77,15 @@ footer div {
 
   .sidenav-link {
     margin: 2.5rem;
+  }
+
+  .sidenav-link:hover .sidenav-icon {
+    transform: scale(1.05);
+  }
+
+  .gallery-header {
+    font-size: 4rem;
+    padding: 2rem 0;
   }
   .img-grid-container {
     width: 85%;
