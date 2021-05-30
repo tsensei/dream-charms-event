@@ -33,13 +33,13 @@
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-custom">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./assets/img/logo.png" alt="" width="48" height="48" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler custom-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -55,7 +55,7 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link"  href="./services.html">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
@@ -80,7 +80,10 @@
     </nav>
     
     <main>
-      <div class="gallery-header"><span>Gallery</span></div>
+      <div class="gallery-header">
+        <span>Gallery</span>
+        <img src="./assets/img/gallery-img/gallery-dash.png" alt="" class="header-underline">
+      </div>
       <div class="img-grid-container">
         <div class="img">
           <img
@@ -172,13 +175,8 @@
         </div>
       </div>
     </main>  
-    <!--Right sticky social icons-->
-    <div class="sidenav">
-      <a href="https://www.facebook.com/Dream-Charms-Events-100795518874455" class="sidenav-link"><img src="./assets/img/social-icons/facebook-sidenav.svg" alt="" class="sidenav-icon"></a>
-      <a href="https://www.instagram.com/dreamcharmsevents/" class="sidenav-link"><img src="./assets/img/social-icons/instagram-sidenav.svg" alt="" class="sidenav-icon"></a>
-      <a href="mailto:dreamcharms@gmail.com" class="sidenav-link"><img src="./assets/img/social-icons/gmail-sidenav.svg" alt="" class="sidenav-icon"></a>
-    </div>
-    <footer class="bg-dark text-light text-center">
+   
+    <footer class="footer-custom text-dark text-center">
       <div>Copyright © <span id="currentYear">2021</span
         > Dream Charms.</a></div>
       <div>All Rights Reserved.</div>
@@ -188,6 +186,6 @@
     <script>
       document.getElementById("currentYear").textContent =
         new Date().getFullYear();
-    </script>
+    </script> 
   </body>
 </html>

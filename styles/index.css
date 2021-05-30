@@ -15,6 +15,10 @@ a {
   margin: 0 0.5rem;
 }
 
+.navbar-toggler {
+  border-color: #212529 !important;
+}
+
 .services-img {
   width: 50%;
 }
