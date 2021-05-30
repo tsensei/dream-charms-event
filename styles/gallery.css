@@ -11,6 +11,10 @@
   font-family: "Montserrat", sans-serif !important;
 }
 
+picture img {
+  display: block;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -49,6 +53,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .gallery-header span {

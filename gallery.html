@@ -82,7 +82,16 @@
     <main>
       <div class="gallery-header">
         <span>Gallery</span>
-        <img src="./assets/img/gallery-img/gallery-dash.png" alt="" class="header-underline">
+        <picture>
+          <source
+            media="(min-width: 600px)"
+            srcset="./assets/img/gallery-img/gallery-dash.png"
+          />
+          <img
+            src="./assets/img/gallery-img/gallery-dash2.png"
+            alt="..."
+          />
+        </picture>
       </div>
       <div class="img-grid-container">
         <div class="img">
