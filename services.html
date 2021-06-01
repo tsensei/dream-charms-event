@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./assets/img/logo.png" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
@@ -18,21 +20,19 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
     <script defer src="./js/index.js"></script>
     <link rel="stylesheet" href="./styles/services.css" />
     <title>Dream Charms Events</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-custom bg-dark">
+    
+    <nav class="navbar navbar-expand-lg navbar-custom">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./assets/img/logo.png" alt="" width="48" height="48" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler custom-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -48,10 +48,12 @@
               <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Services</a>
+              <a class="nav-link active" aria-current="page"  href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./gallery.html">Gallery</a>
+              <a class="nav-link" href="./gallery.html"
+                >Gallery</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
@@ -68,33 +70,62 @@
           >
         </div>
       </div>
-    </nav> 
+    </nav>
 
     <main>
-      <div class="svg-first">
-        <img src="./assets/img/services-svg/undraw_Celebration_re_kc9k.svg" alt="">
+      <div class="main-hero">
+        <div class="main-hero-content">Wedding? Birthday? We got it all covered .</div>
       </div>
-      <div class="main-content">
-        <div class="main-content-header">Wedding? Birthday? We got it all covered</div>
+      <div class="service-cards-section">
+        <h2>Services We Provide</h2>
+        <div class="service-cards-container">
+          <div class="service-card">
+            <img src="./assets/img/services-icon/celebration.svg" alt="" class="service-card-logo">
+            <h3>Decoration</h3>
+          </div>
+          <div class="service-card">
+            <img src="./assets/img/services-icon/review.svg" alt="" class="service-card-logo">
+            <h3>Venue</h3>
+          </div>
+          <div class="service-card">
+            <img src="./assets/img/services-icon/catering.svg" alt="" class="service-card-logo">
+            <h3>Catering</h3>
+          </div>
+          <div class="service-card">
+            <img src="./assets/img/services-icon/christmas-lights.svg" alt="" class="service-card-logo">
+            <h3>Lights</h3>
+          </div>
+          <div class="service-card">
+            <img src="./assets/img/services-icon/amplifier.svg" alt="" class="service-card-logo">
+            <h3>Sounds</h3>
+          </div>
+          <div class="service-card">
+            <img src="./assets/img/services-icon/camera.svg" alt="" class="service-card-logo">
+            <h3>Photography</h3>
+          </div>
+          <div class="service-card">
+            <img src="./assets/img/services-icon/video-camera.svg" alt="" class="service-card-logo">
+            <h3>Videography</h3>
+          </div>
+          <div class="service-card">
+            <img src="./assets/img/services-icon/dj.svg" alt="" class="service-card-logo">
+            <h3>DJ</h3>
+          </div>
+
+        </div>
       </div>
     </main>
-
-    <footer class="footer-custom text-light text-center">
+       
+    <footer class="footer-custom text-dark text-center">
       <div>Copyright © <span id="currentYear">2021</span
         > Dream Charms.</a></div>
       <div>All Rights Reserved.</div>
+      <div>Made with ❤️️ by<a href="https://instagram.com/_tsensei_">tsensei</a></div>
     </footer>
-
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  
 
     <script>
       document.getElementById("currentYear").textContent =
         new Date().getFullYear();
-      AOS.init();
-    </script>
-
-
+    </script> 
   </body>
 </html>
