@@ -32,7 +32,7 @@ a {
   display: block;
   font-size: 1.3rem;
   margin: 0.67em 0 0.67em 0;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Cookie", cursive !important;
 }
 
@@ -131,10 +131,10 @@ footer div {
 
 @media only screen and (min-width: 900px) {
   .carousel-inner {
-    max-height: calc(90vh - 74px);
+    max-height: calc(110vh - 74px);
   }
   .carousel-inner img {
-    max-height: calc(90vh - 74px);
+    max-height: calc(110vh - 74px);
   }
 
   .motto-container div {

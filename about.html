@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/logo.png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script defer src="./js/index.js"></script>
+    <link rel="stylesheet" href="./styles/about.css" />
+    <title>Dream Charms Events</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/logo.png" alt="" width="48" height="48" />
+        </a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+               <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html"
+                >Gallery</a
+              > 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text"
+            ><img src="./assets/img/email.svg" height="24" width="24" /><a
+              href="mailto@dreamcharms@gmail.com"
+              >dreamcharms@gmail.com</a
+            ></span
+          >
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="main-content">
+        <h2 class="content-header">About Us</h2>
+        <div class="content-area">
+          <div>Charming and inspired; quirky and sophisticated; traditional yet modern – the client is all of these and so are WE. As your event planner, we bring your vision to life.</div>
+          <div>Dream Charms Events is a Dhaka based event management company, which offers specialized services for all kinds of events and occasions from family gatherings/weddings to corporate events like product and store launches, fashion shows and awards night to children to grandparents birthday parties.</div>
+        </div>
+
+        <div class="blockquote"><p>Dream Charms Events offers clients anything and everything – nothing is impossible – everything is achievable. From event design, florals, props, scouting destinations – Think Everything and We can do it. Vibrant, innovative, sophisticated and stylish are the key features we keep in mind when putting together a new event.</p></div>
+        <div class="mission-area">
+          <h2 class="mission-header">Our mission</h2>
+          <div class="mission-content">
+            <div class="mission-content-text">
+              <p>The philosophy of DCE : Dream Charms Events is a simple one; achieve extraordinary events each and every time. Our team understands the importance of sharing our clients’ vision and sensibility, resulting in a strong identity behind every event. </p>
+            <p>Our commitment to you is to provide the highest level of professionalism while we translate your vision into something beyond your expectations. Most importantly you will have fun and enjoy the process, we promise !</p>
+            <p>DCE captures that moment through flawless design, unparallel service, expert logistic coordination, inspired menus and impeccable attention to detail. </p>
+            <p>DCE provides customized full service proposals for all our clients. </p>
+            <a href="mailto@dreamcharms@gmail.com" class="mail-btn">Send Us A Mail</a>
+          </div>
+            <div class="mission-content-img"><img src="./assets/img/about-img/pexels-natasha-fernandez-811572(1).jpg" alt=""></div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="footer-fixed-img">
+        <img src="./assets/img/about-img/NicePng_marriage-clipart-png_2499291.png" alt="">
+
+      </div>
+    </main>
+
+    <footer class="footer-custom text-dark text-center">
+      <div>Copyright © <span id="currentYear">2021</span
+        > Dream Charms.</a></div>
+      <div>All Rights Reserved.</div>
+      <div>Made with ❤️️ by<a href="https://instagram.com/_tsensei_">tsensei</a></div>
+    </footer>
+
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script> 
+  </body>
+</html>
