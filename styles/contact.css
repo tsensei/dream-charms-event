@@ -51,10 +51,88 @@ main {
 
 .main-container {
   text-align: center;
+  padding: 2rem;
 }
 
 .main-container h5 {
   margin: 1rem 0;
+}
+
+.main-container-content {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container-form form input,
+.main-container-form form textarea {
+  width: 90%;
+  outline: none;
+  padding: 1rem;
+  border: none;
+  border-bottom: 2px solid var(--header-footer-color);
+}
+
+.main-container-form form button {
+  padding: 10px 10px;
+
+  margin: 1rem auto;
+  outline: none;
+  border: none;
+  background-color: white;
+  border: 1px solid var(--header-footer-color);
+}
+
+.main-container-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container-form form > * {
+  margin: 0.6rem 0;
+}
+
+.social-address {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #21a5f7;
+}
+
+.social-address-logo {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.social-address div {
+  margin: 0.6rem 0;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.social-address div img {
+  margin-right: 1.3rem;
+}
+
+.social-address div span {
+  text-align: left;
+}
+
+.social-links {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+}
+
+.social-links a {
+  height: 4rem;
+  width: 4rem;
+  padding: 0.5rem;
+}
+
+.social-links a img {
+  height: 100%;
+  width: 100%;
 }
 
 a {
@@ -97,32 +175,19 @@ footer div {
     font-size: 3rem;
   }
 
-  .main-container-content > * {
-    flex: 1;
-    padding: 0 5rem;
-  }
-
-  .main-container > div {
-    padding: auto 5rem;
+  .main-container-form form input,
+  .main-container-form form textarea {
+    width: 100%;
   }
 
   .main-container-content {
-    padding-top: 2rem;
-    display: flex;
+    flex-direction: row;
+    padding: auto 5rem;
   }
 
-  .main-container-form form {
-    display: flex;
-    flex-direction: column;
-  }
-  .main-container-form form button {
-    padding: 10px 10px;
-
-    margin: 1rem auto;
-    outline: none;
-    border: none;
-    background-color: white;
-    border: 1px solid var(--header-footer-color);
+  .main-container-content > * {
+    flex: 1;
+    padding: 0 5rem;
   }
 
   .main-container-form form button:hover {
@@ -131,59 +196,6 @@ footer div {
     border: white;
   }
 
-  .main-container-form form input,
-  .main-container-form form textarea {
-    outline: none;
-    padding: 1rem;
-    border: none;
-    border-bottom: 2px solid var(--header-footer-color);
-  }
-
-  .main-container-form form > * {
-    margin: 0.6rem 0;
-  }
-
-  .social-address {
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #21a5f7;
-  }
-
-  .social-address-logo {
-    height: 2.5rem;
-    width: 2.5rem;
-  }
-
-  .social-address div {
-    margin: 0.6rem 0;
-    padding: 0.5rem;
-    display: flex;
-    align-items: center;
-  }
-
-  .social-address div img {
-    margin-right: 1.3rem;
-  }
-
-  .social-address div span {
-    text-align: left;
-  }
-
-  .social-links {
-    display: flex;
-    padding-top: 2rem;
-    justify-content: center;
-  }
-
-  .social-links a {
-    height: 4rem;
-    width: 4rem;
-    padding: 0.5rem;
-  }
-
-  .social-links a img {
-    height: 100%;
-    width: 100%;
-  }
   footer div:nth-child(1),
   footer div:nth-child(2) {
     display: inline-block;
