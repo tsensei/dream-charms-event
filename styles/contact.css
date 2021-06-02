@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+:root {
+  --header-footer-color: #21a5f7;
+}
+
+*,
+*::after,
+*::before {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  flex: 1;
+}
+
+.map-container {
+  height: 35vh;
+  background-image: url("../assets/img/contact-img/map-bg.png");
+  background-position: center center;
+  position: relative;
+  padding: 1rem;
+}
+
+.map-container-header {
+  position: absolute;
+  z-index: 100;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  border-bottom: 3px solid var(--header-footer-color);
+}
+
+.map-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.main-container {
+  text-align: center;
+}
+
+.main-container h5 {
+  margin: 1rem 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.nav-link {
+  color: black;
+}
+.navbar-custom,
+.footer-custom {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  background-color: var(--header-footer-color) !important;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+footer {
+  padding: 0.5rem 0;
+}
+
+footer div {
+  padding: 0.2rem 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .map-container {
+    height: 50vh;
+    padding: 2rem;
+  }
+
+  .main-container {
+    padding: 2rem 10rem;
+  }
+  .map-container-header {
+    font-size: 3rem;
+  }
+
+  .main-container-content > * {
+    flex: 1;
+    padding: 0 5rem;
+  }
+
+  .main-container > div {
+    padding: auto 5rem;
+  }
+
+  .main-container-content {
+    padding-top: 2rem;
+    display: flex;
+  }
+
+  .main-container-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-container-form form button {
+    padding: 10px 10px;
+
+    margin: 1rem auto;
+    outline: none;
+    border: none;
+    background-color: white;
+    border: 1px solid var(--header-footer-color);
+  }
+
+  .main-container-form form button:hover {
+    background-color: var(--header-footer-color);
+    color: white;
+    border: white;
+  }
+
+  .main-container-form form input,
+  .main-container-form form textarea {
+    outline: none;
+    padding: 1rem;
+    border: none;
+    border-bottom: 2px solid var(--header-footer-color);
+  }
+
+  .main-container-form form > * {
+    margin: 0.6rem 0;
+  }
+
+  .social-address {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #21a5f7;
+  }
+
+  .social-address-logo {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .social-address div {
+    margin: 0.6rem 0;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .social-address div img {
+    margin-right: 1.3rem;
+  }
+
+  .social-address div span {
+    text-align: left;
+  }
+
+  .social-links {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+  }
+
+  .social-links a {
+    height: 4rem;
+    width: 4rem;
+    padding: 0.5rem;
+  }
+
+  .social-links a img {
+    height: 100%;
+    width: 100%;
+  }
+  footer div:nth-child(1),
+  footer div:nth-child(2) {
+    display: inline-block;
+  }
+}
