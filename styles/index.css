@@ -61,6 +61,18 @@ a {
 .services-img {
   width: 100%;
 }
+.explore-container {
+  padding: 1.3rem;
+  background-color: #1b9cfc;
+}
+
+.explore-container a {
+  font-size: 1.6rem;
+}
+
+.explore-container a:hover {
+  color: #212529;
+}
 
 .map-container {
   padding: 1rem;
@@ -160,7 +172,9 @@ footer div {
   .cards p {
     line-height: 2;
   }
-
+  .explore-container {
+    padding: 2rem;
+  }
   .map-responsive {
     padding-bottom: 20%;
   }
